@@ -40,3 +40,34 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+// ## Task 1: Create selectors to point your data into elements
+
+// * [ x ] Create selectors by using any of the DOM element's methods
+// * [ x ] Note that IDs have been used on all images.  Use the IDs to update src path content
+
+document.getElementById("logo-img").src = "img/logo.png";
+document.getElementById("cta-img").src = "img/header-img.png";
+document.getElementById("middle-img").src = "img/mid-page-accent.jpg";
+
+
+// ## Task 2: Update the HTML with the JSON data
+
+// * [ ] Remember, NO direct updating of the HTML source is allowed.
+// * [ ] Using your selectors, update the content to match the example file.
+// * [ ] Remember to update the src attributes on images
+
+// ## Task 3: Add new content
+
+// * [ ] Change the color of the navigation text to be green.
+// * [ ] Utilize `.appendChild()` and `.prepend()` to add two new items to the navigation system. You can call them whatever you want.
+// * [ ] Check your work by looking at the [original html](original.html) in the browser
+
+
+// ********** //
+
+// ## Stretch Goals
+
+// * [ ] Update styles throughout the page as you see fit.  Study what happens when you updated the DOM using style in JavaScript.  
+// * [ ] Study tomorrow's lesson on events and try to integrate a button that can update content on the site with a click of a button.  You could build a similar data object with new values to help you test the click event.
