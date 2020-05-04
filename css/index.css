@@ -68,6 +68,13 @@ h1, h2, h3, h4, h5 {
     margin: auto;
 }
 
+/* Dark Mode Styles*/
+
+.darkMode {
+    background-color: #262f38;
+    color: white;
+}
+
 /* Header Styles */
 
 header {
