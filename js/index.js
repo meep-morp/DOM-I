@@ -145,7 +145,7 @@ document.querySelector("nav").appendChild(linkEmpire);
 // * Update styles throughout the page as you see fit.  Study what happens when you updated the DOM using style in JavaScript.  
 // * Study tomorrow's lesson on events and try to integrate a button that can update content on the site with a click of a button.  You could build a similar data object with new values to help you test the click event.
 
-// Two Stretch Goals in one
+// Two Stretch Goals in one :D
 
 const toggle = document.querySelectorAll('button')[1];
 toggle.textContent = "Dark Mode";
@@ -156,11 +156,11 @@ toggle.addEventListener("click", () => {
     document.querySelector("body").style.color = "white";
     toggle.textContent = "Light Mode";
   } else {
-    document.querySelector("body").style.backgroundColor = "white";
-    document.querySelector("body").style.color = "black";
-    toggle.textContent = "Dark Mode";
+      document.querySelector("body").style.backgroundColor = "white";
+      document.querySelector("body").style.color = "black";
+      toggle.textContent = "Dark Mode";
   }
 })
 
-const darkLink = document.getElementsByClassName("darkMode");
-const lightLink = document.getElementsByClassName("lightMode");
+// const darkLink = document.getElementsByClassName("darkMode");
+// const lightLink = document.getElementsByClassName("lightMode");
