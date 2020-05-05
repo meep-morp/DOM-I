@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -7,6 +8,10 @@ body {
 .digit {
   display: inline-block;
   font-size: 80px;
+}
+
+button {
+  font-size: 30px;
 }
 
 .redDigit {
